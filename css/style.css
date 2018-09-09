@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+/*4CAF50*/
+
+
+.login-page {
+  width: 360px;
+  margin: auto;
+}
+.form {
+  
+                padding:30px 30px;
+                background:rgba(50, 50, 50, 0.25);
+				 border:0px solid #dbdbdb;
+                         margin:50px auto;
+                         height: 220px;
+                         width: 400px;
+                        
+
+  /*position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-color: lightslategray*/
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+input.button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: lightskyblue;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+input.button:hover,input button:active,input button:focus {
+  background: #32323C;
+}
+
+
+
+      h1{
+        text-align: center;
+        /*color: black;*/
+         color:#C8B7B4;
+ font-size:70px;
+	font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          
+      }
+
+
+
+

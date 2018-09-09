@@ -1,0 +1,128 @@
+
+body {margin:0;}
+h1
+{
+	color: #C8B7B4;
+	text-align:center;
+	font-size:60px;
+	font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+		form {
+			width: 300px;
+			color: black;
+		}
+		
+		input[type=text],input[type=date] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+		}
+		
+		input[type=text]:focus {
+			border: 3px solid #555;
+		}
+	
+		input[type=button],
+		input[type=submit],
+		input[type=reset] {
+			/*4CAF50*/
+			background-color: transparent;
+			border: solid white;
+			border-radius: 60px;
+			color: white;
+			padding: 16px 32px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		input[type=button]:hover{
+			background-color: lightskyblue
+		}
+		
+		
+		li {
+display: inline;
+margin-right: 10px;
+font-size: 20px;
+
+
+
+}
+a:hover
+{
+color: darkorange;
+}
+
+ul{
+    margin: 0 auto;
+    width: 600px;
+    word-spacing: 12px;
+    
+}
+
+@font-face {
+    font-family: font;
+    src: url(../font/font2.ttf);
+}
+a{
+  text-decoration: none;
+color:#ffffff;
+font-family: font; 
+
+  }
+ .add,.search
+ {
+	 margin: 0 auto;
+	 
+	 
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+				 border:0px solid #dbdbdb;
+				  }
+				  
+ form.add,form.search
+ {
+	 color: seashell
+ }
+  .submit
+  {
+	  text-align: center;
+  }
+  h1.add
+  {
+	  
+	  text-decoration:underline;
+	  font-size:60px;
+	font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+ 
+input[type=button] {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+input[type=button]:hover  {
+                background-color:lightskyblue;
+                color:#210cca;
+}
+input.icon
+{
+background-image: url('../img/icon.jpg');
+background-repeat: no-repeat;
+ padding: 12px 20px 12px 40px;
+}
+div.navbar
+{
+	color: white;
+	background-color:rgb(50, 50, 50);
+	/*background-color:rgb(92, 61, 40);*/
+opacity: 0.4;	
+
+}
+
+
